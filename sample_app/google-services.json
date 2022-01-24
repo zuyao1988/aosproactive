@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "729240273020",
+    "firebase_url": "https://same-name-project.firebaseio.com",
+    "project_id": "same-name-project",
+    "storage_bucket": "same-name-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729240273020:android:be71fb89cdf0a502eac9f9",
+        "android_client_info": {
+          "package_name": "com.liveperson.sample.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729240273020-m32r6hmgmqd92tf4dbagko0ro7b82ps8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOcX-YpmRAadlkTUqeHGr9VO9ok-kfzSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729240273020-m32r6hmgmqd92tf4dbagko0ro7b82ps8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729240273020:android:ec67582404acffe9eac9f9",
+        "android_client_info": {
+          "package_name": "com.zulp.sampleapp.com.hsbc.app.name.test.app.push.notifications.hohoh.idontwantofail.abcdefghi.wantotryforandroid.androidshouldbe.can.suppo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729240273020-m32r6hmgmqd92tf4dbagko0ro7b82ps8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOcX-YpmRAadlkTUqeHGr9VO9ok-kfzSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729240273020-m32r6hmgmqd92tf4dbagko0ro7b82ps8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.huawei.agconnect'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.zulp.sampleapp.com.hsbc.app.name.test.app.push.notifications.hohoh.idontwantofail.abcdefghi.wantotryforandroid.androidshouldbe.can.suppo"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 580
+        versionName "5.8.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.firebase:firebase-messaging:20.3.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    testImplementation "junit:junit:4.12"
+
+    implementation 'com.liveperson.android:lp_messaging_sdk:5.8.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
